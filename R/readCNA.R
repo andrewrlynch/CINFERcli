@@ -1,1 +1,1 @@
-# For reading in several CNA formats, handling chr prefixes, and formatting.
+# Reads in several CNA formats, handling chromosome prefixes, and formatting.
