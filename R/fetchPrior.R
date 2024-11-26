@@ -1,5 +1,16 @@
-# Fetches prior data set from CINFERbase given default or user-specified parameters. Downloads the CINFERbase release if not present.
-
+#' Fetch prior data
+#'
+#' @description
+#' Fetches prior data set from CINFERbase given default or user-specified parameters. Downloads the latest CINFERbase release if not present.
+#'
+#' @param steps The range of time steps to include in the prior data. Defaults to "all".
+#' @param rate The range of mis-segregation rates to include in the prior data. Defaults to "all".
+#' @param pressure The range of selection pressure magnitudes to include in the prior data. Defaults to "all".
+#' @param forceDownload Force download the specified CINFERbase version.
+#' @param version The version of CINFERbase to download and/or use. Defaults to "latest".
+#' @importFrom data.table fread
+#' @importFrom piggyback pb_download
+#' @export
 fetchPrior <- function(
     steps = "all",
     rate = "all",
@@ -14,7 +25,7 @@ fetchPrior <- function(
   downloadFlag = 0
 
   if(fileExists == T){
-    print("CINFERbase located.")
+    print("CINFERbase located on disk.")
   } else {
     print(paste("CINFERbase not found. Downloading", version, "CINFERbase release from GitHub repo."))
     piggyback::pb_download(repo="andrewrlynch/CINFERcli", tag=version, dest=".", overwrite = TRUE)
@@ -30,7 +41,7 @@ fetchPrior <- function(
   fileList = list.files()
   Cb = fileList[grepl("CINFERbase", fileList)]
 
-  print(paste0("Loading prior data (", Cb, ")"))
+  print(paste0("Loading... (", Cb, ")"))
   CINFERprior = data.table::fread(Cb, header = T)
 
   if(any(steps == "all")){
@@ -54,5 +65,5 @@ fetchPrior <- function(
     CINFERprior = CINFERprior[CINFERprior$Step >= pressure[1] & CINFERprior$Step <= pressure[2],]
   }
 
-  assign("CINFERprior", CINFERprior, envir = .GlobalEnv)
+  return(CINFERprior)
 }

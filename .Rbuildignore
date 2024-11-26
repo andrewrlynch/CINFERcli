@@ -1,2 +1,6 @@
 ^CINFERcli\.Rproj$
 ^\.Rproj\.user$
+^inst/extdata/CINFERbase$
+^LICENSE\.md$
+^data-raw$
+^README\.Rmd$
