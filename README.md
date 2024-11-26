@@ -1,7 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <p align="center">
-<img width="auto" height="64" src="www/CINFERLogo.svg">
+
+<img src="www/CINFERLogo.svg" width="auto" height="64"/>
+
 </p>
 
 # CINFERcli
@@ -18,11 +20,15 @@ the karyotype diversity observed in patient-derived clinical samples.
 This web version of CINFER implements a model of stabilizing karyotype
 selection that selects against cells with imbalanced karyotypes.
 
+\<!–#
+
 <p align="center">
 
 <img src="www/screenshot.png" width="auto" height="512"/>
 
 </p>
+
+–\>
 
 ## Installation
 

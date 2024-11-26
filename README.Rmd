@@ -13,7 +13,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-<p align="center"><img width="auto" height="64" src="www/CINFERLogo.svg"></p>
+<p align="center">
+
+<img src="www/CINFERLogo.svg" width="auto" height="64"/>
+
+</p>
 
 # CINFERcli
 
@@ -23,11 +27,15 @@ We have shown that this method can recall experimentally observed mis-segregatio
 
 This web version of CINFER implements a model of stabilizing karyotype selection that selects against cells with imbalanced karyotypes.
 
+\<!--#
+
 <p align="center">
 
 <img src="www/screenshot.png" width="auto" height="512"/>
 
 </p>
+
+--\>
 
 ## Installation
 
