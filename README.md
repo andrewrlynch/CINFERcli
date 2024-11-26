@@ -13,7 +13,13 @@ selective pressure of aneuploid populations.
 
 ## Installation
 
-You can install the development version of CINFERcli from
-[GitHub](https://github.com/) with:
-
     devtools::install_github('andrewrlynch/CINFERcli')
+
+## Usage
+
+If you use CINFER, kindly cite:
+
+> Lynch, Andrew R., Nicholas L. Arp, Amber S. Zhou, Beth A. Weaver, and
+> Mark E. Burkard. Quantifying chromosomal instability from intratumoral
+> karyotype diversity using agent-based modeling and Bayesian inference.
+> Elife 11 (2022): e69799.
