@@ -1,10 +1,10 @@
 Package: CINFERcli
-Title: What the Package Does (One Line, Title Case)
+Title: Inference of CIN from scDNAseq data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Andrew", "Lynch", , "arlynch@mdanderson.org", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0238-682X"))
+Description: CINFER produces scDNAseq-based estimates of chromosome mis-segregation rates. It uses a pre-simulated dataset of over 50,000 simulated populations growing with varying levels of chromosomal instability and selective pressure of aneuploid populations.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
