@@ -1,4 +1,5 @@
 # Top-level controller script for CINFER
+load_all()
 
 ## Options ----------------------------------------------------------------
 # --steps

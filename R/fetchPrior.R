@@ -1,5 +1,4 @@
 # Fetches prior data set from CINFERbase given default or user-specified parameters. Downloads the CINFERbase release if not present.
-load_all()
 
 fetchPrior <- function(
     steps = "all",
