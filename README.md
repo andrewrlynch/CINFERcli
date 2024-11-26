@@ -1,13 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<p align="center">
+<img width="auto" height="64" src="www/CINFERLogo.svg">
+</p>
 
 # CINFERcli
-
-<!-- badges: start -->
-<!-- badges: end -->
-<center>
-<img src="www/CINFERLogo.svg" class="center" height="64" />
-</center>
 
 CINFER produces scDNAseq-based estimates of chromosome mis-segregation
 rates. It uses a pre-simulated dataset of over 50,000 simulated
