@@ -17,19 +17,6 @@ We have shown that this method can recall experimentally observed
 mis-segregation rates as well as those most likely to have resulted in
 the karyotype diversity observed in patient-derived clinical samples.
 
-This web version of CINFER implements a model of stabilizing karyotype
-selection that selects against cells with imbalanced karyotypes.
-
-\<!–#
-
-<p align="center">
-
-<img src="www/screenshot.png" width="auto" height="512"/>
-
-</p>
-
-–\>
-
 ## Installation
 
     devtools::install_github('andrewrlynch/CINFERcli')
@@ -44,6 +31,30 @@ If you use CINFER, kindly cite:
 > Elife 11 (2022): e69799.
 
 ## Usage
+
+### Web App
+
+A [web version](https://burkardlab.shinyapps.io/CINFER/) of CINFER is
+available for ease of use. It implements a subset of CINFERbase which
+includes:
+
+- A stabilizing karyotype selection model selecting against cells with
+  imbalanced karyotypes.
+
+- A exponential/pseudo-Moran growth model that rapidly approaches, and
+  is capped at 3000 cells.
+
+- Lower mis-segregation rates relevant to natural biological processes.
+
+<p align="center">
+
+<img src="www/screenshot.png" height="512" />
+
+</p>
+
+## 
+
+### Citation
 
 If you use CINFER, kindly cite:
 
