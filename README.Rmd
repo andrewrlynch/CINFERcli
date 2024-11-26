@@ -25,6 +25,6 @@ CINFER produces scDNAseq-based estimates of chromosome mis-segregation rates. It
 You can install the development version of CINFERcli from [GitHub](https://github.com/) with:
 
 ```
-devtools::install_github('mskilab-org/JaBbA')
+devtools::install_github('andrewrlynch/CINFERcli')
 ```
 

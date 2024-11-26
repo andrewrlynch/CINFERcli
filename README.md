@@ -16,4 +16,4 @@ selective pressure of aneuploid populations.
 You can install the development version of CINFERcli from
 [GitHub](https://github.com/) with:
 
-    devtools::install_github('mskilab-org/JaBbA')
+    devtools::install_github('andrewrlynch/CINFERcli')
