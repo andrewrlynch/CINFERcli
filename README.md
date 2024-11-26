@@ -17,11 +17,9 @@ We have shown that this method can recall experimentally observed
 mis-segregation rates as well as those most likely to have resulted in
 the karyotype diversity observed in patient-derived clinical samples.
 
-## Installation
-
-    devtools::install_github('andrewrlynch/CINFERcli')
-
 # Usage
+
+## Citation
 
 If you use CINFER, kindly cite:
 
@@ -30,9 +28,15 @@ If you use CINFER, kindly cite:
 > karyotype diversity using agent-based modeling and Bayesian inference.
 > Elife 11 (2022): e69799.
 
-## Usage
+## Installation
 
-### Web App
+    devtools::install_github('andrewrlynch/CINFERcli')
+
+## Input
+
+## Output
+
+## Web App
 
 A [web version](https://burkardlab.shinyapps.io/CINFER/) of CINFER is
 available for ease of use. It implements a subset of CINFERbase which
@@ -51,14 +55,3 @@ includes:
 <img src="www/screenshot.png" height="512" />
 
 </p>
-
-## 
-
-### Citation
-
-If you use CINFER, kindly cite:
-
-> Lynch, Andrew R., Nicholas L. Arp, Amber S. Zhou, Beth A. Weaver, and
-> Mark E. Burkard. Quantifying chromosomal instability from intratumoral
-> karyotype diversity using agent-based modeling and Bayesian inference.
-> Elife 11 (2022): e69799.
