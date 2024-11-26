@@ -1,4 +1,9 @@
-# Top-level controller script for CINFER
+#' Run CINFER to infer mis-segregation rates.
+#'
+#' @description
+#' Top level controller script to run CINFER. Handles input data, fetches prior data from CINFERbase, and runs approximate Bayesian computation inference of mis-segregation rates.
+#' @export
+cinfer <- function(){
 
 ## Options ----------------------------------------------------------------
 # --steps
@@ -12,7 +17,7 @@
 ### Calculate summary statistics -------------------------------------------
 
 ## Prior -------------------------------------------------------------------
-#fetchPrior()
+CINFERprior <- fetchPrior()
 
 ## ABC ---------------------------------------------------------------------
 
@@ -22,3 +27,4 @@
 ## Output ------------------------------------------------------------------
 ### Generate tables --------------------------------------------------------
 ### Generate plots ---------------------------------------------------------
+}
